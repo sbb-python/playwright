@@ -1,0 +1,2 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Thu Feb 16 10:20:59 EST 2023","Thu Feb 16 10:21:16 EST 2023","17577","","lplLogin.spec.ts","This Test case only created for demo purposes","","","@LPL Test Case to create LPL Job Alert-AVP",""

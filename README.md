@@ -1,2 +1,2 @@
-# plwr
-PLWR
+# playwright
+Playwright Automation

@@ -1,0 +1,46 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "lib": [
+      "esnext",
+      "dom"
+    ],
+    /* Modules */
+    "module": "commonjs", /* Specify what module code is generated. */
+    // "rootDir": "./",                                  /* Specify the root folder within your source files. */
+    "moduleResolution": "node", /* Specify how TypeScript looks up a file from a given module specifier. */
+    "types": [
+      "node"
+    ],
+    "sourceMap": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "resolveJsonModule": true,
+    "declaration": false,
+    /* JavaScript Support */
+    "allowJs": true, /* Allow JavaScript files to be a part of your program. Use the 'checkJS' option to get errors from these files. */
+    "checkJs": true, /* Enable error reporting in type-checked JavaScript files. */
+    "esModuleInterop": true, /* Emit additional JavaScript to ease support for importing CommonJS modules. This enables 'allowSyntheticDefaultImports' for type compatibility. */
+    "forceConsistentCasingInFileNames": true, /* Ensure that casing is correct in imports. */
+    "noImplicitAny": false,
+    /* Type Checking */
+    "strict": true, /* Enable all strict type-checking options. */
+    "skipLibCheck": true, /* Skip type checking all .d.ts files. */
+    "outDir": "build/",
+    "baseUrl": "./src/",
+    "paths": { /* Specify a set of entries that re-map imports to additional lookup locations. */
+      "@webObjects/*": [
+        "lib/objectsRepository/*"
+      ],
+      "@pages/*": [
+        "lib/pageRepository/*"
+      ],
+      "@fixtures/*": [
+        "fixtures/*"
+      ],
+      "@commonWebActions/*": [
+        "utils/*"
+      ]
+    }
+  }
+}
