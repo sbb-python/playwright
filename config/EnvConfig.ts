@@ -1,5 +1,5 @@
 export const EnvConfig = {
-    SIT: 'https://lplfinancial.wd1.myworkdayjobs.com/External',
+    SIT: 'https://myworkdayjobs.com/External',
     UAT: '',
     MS: 'https://reqres.in',
     username: '',
